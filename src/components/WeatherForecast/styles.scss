@@ -1,0 +1,46 @@
+@mixin flex-column {
+   display: flex;
+   flex-direction: column;
+}
+
+.container-weatherForcast {
+   height: 650px;
+   width: 100%;
+   max-width: 900px;
+   align-items: center;
+   justify-content: space-between;
+   @include flex-column;
+   img {
+      height: 200px;
+   }
+   strong {
+      font-size: 40px;
+   }
+}
+
+.container-center {
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+   div {
+      @include flex-column;
+      align-items: center;
+   }
+   p {
+      font-size: 80px;
+   }
+}
+.footer-container {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   border-top: 2px solid;
+   width: 100%;
+   font-size: 20px;
+   padding: 25px;
+   div {
+      @include flex-column;
+      text-align: left;
+   }
+}
