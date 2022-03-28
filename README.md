@@ -1,36 +1,22 @@
-# Getting Started with Create React App
+### START PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-  npm install
+-  yarn start
 
-## Available Scripts
+### DEPLOY VERCEL
 
-In the project directory, you can run:
+https://2bdigitaldev-psi.vercel.app/
 
-### `npm test`
+### stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  SASS
+-  React.js
+-  Hooks
 
-### `npm run build`
+Communication tool:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  axios
 
-### `npm run eject`
+### VIDEO
 
-## Learn More
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-### libs
-
-Axios
-sass
+https://youtu.be/sQk9CKCQhsw
